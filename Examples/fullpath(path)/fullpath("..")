@@ -1,0 +1,7 @@
+#!/usr/bin/env python
+import os
+from fullpath import *
+
+print(os.getcwd())
+path = fullpath("..")
+print(path)

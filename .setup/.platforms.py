@@ -3,8 +3,7 @@
 __all__=["platforms"]
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 path = join(repo,"platforms.txt")
 platforms="any" # default

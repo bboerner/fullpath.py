@@ -4,8 +4,7 @@ __all__=["py_modules","package_dir"]
 import os
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 path  = join(repo,"py_modules")
 if exists(path) and isdir(path): # ./py_modules/

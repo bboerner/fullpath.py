@@ -16,7 +16,7 @@ github.com_: :code:`pip install git+git://github.com/russianidiot/fullpath.py.gi
 
 pypi.python.org_: :code:`pip install fullpath`
 
-download_: :code:`python setup.py install && [ -e requirements.txt ] && pip install -r requirements.txt`
+download_: :code:`[ -e requirements.txt ] && pip install -r requirements.txt; python setup.py install`
 
 .. _github.com: http://github.com/russianidiot/fullpath.py
 .. _pypi.python.org: https://pypi.python.org/pypi/fullpath.py
@@ -31,18 +31,18 @@ download_: :code:`python setup.py install && [ -e requirements.txt ] && pip inst
 Usage
 ~~~~~
 
-.. code-block::
+.. code-block::python
 
 	from fullpath import *
 
-	fullpath("~")
-	>>> '/Users/username'
+	>>> fullpath("~")
+	'/Users/username'
 
-	fullpath(".")
-	>>> '/path/to/current/directory'
+	>>> fullpath(".")
+	'/path/to/current/directory'
 
-	fullpath("..")
-	>>> '/path/to/current'
+	>>> fullpath("..")
+	'/path/to/current'
 
 ----
 

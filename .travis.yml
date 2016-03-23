@@ -1,4 +1,7 @@
 language: python
+cache:
+  directories: 
+    - $HOME/.cache/pip
 python:
   - "2.6"
   - "2.7"
@@ -9,7 +12,7 @@ python:
   - "3.5-dev" # 3.5 development branch
   - "nightly" # currently points to 3.6-dev
 
-sudo: true
+sudo: false
 
 env:
   - PYTHONIOENCODING="UTF-8"
@@ -42,9 +45,9 @@ before_install:
 
 install:
   - set -e # Exit immediately if a subshell command exits with a non-zero status (man sh).
-  - pip install setuptools
-  - python setup.py install # requirements.txt NOT INSTALLED!
-  #- pip install -r requirements.txt
+  - '[ -f requirements.txt ] && cat requirements.txt;:'
+  - '[ -f requirements.txt ] && pip install -r requirements.txt;:'
+  - python setup.py install
   - pip install coveralls
 
 before_script:
@@ -64,6 +67,6 @@ after_failure:
   - pwd
 
 # Calculate coverage
-after_success:
+#after_success:
   #- coveralls 
   # Couldn't find a repository matching this job.

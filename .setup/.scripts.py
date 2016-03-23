@@ -4,8 +4,7 @@ __all__=["scripts"]
 import os
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 file = join(repo,"scripts.txt")
 if exists(file) and isfile(file): # ./url.txt

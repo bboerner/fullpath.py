@@ -4,8 +4,7 @@ __all__=["packages"]
 import os
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 # distname.py/
 # distname.py/packages/

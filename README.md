@@ -14,7 +14,7 @@
 
 [pypi.python.org](https://pypi.python.org/pypi/fullpath/): `pip install fullpath`
 
-[download](https://github.com/russianidiot/fullpath.py/archive/master.zip): `python setup.py install && [ -e requirements.txt ] && pip install -r requirements.txt`
+[download](https://github.com/russianidiot/fullpath.py/archive/master.zip): `[ -e requirements.txt ] && pip install -r requirements.txt; python setup.py install`
 
 	
 
@@ -24,17 +24,17 @@
 
 ### Usage
 
-```
-from fullpath import *
+```python
+	from fullpath import *
 
-fullpath("~")
->>> '/Users/username'
+	>>> fullpath("~")
+	'/Users/username'
 
-fullpath(".")
->>> '/path/to/current/directory'
+	>>> fullpath(".")
+	'/path/to/current/directory'
 
-fullpath("..")
->>> '/path/to/current'
+	>>> fullpath("..")
+	'/path/to/current'
 ```
 
 * * *

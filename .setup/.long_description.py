@@ -3,8 +3,7 @@
 __all__=["long_description"]
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 for name in ["README.rst","README","README.txt"]:
     fullpath = join(repo,name)

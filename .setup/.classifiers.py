@@ -4,8 +4,7 @@ __all__=["classifiers"]
 import os
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 def read(path):
     if exists(path) and isfile(path):

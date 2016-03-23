@@ -3,8 +3,7 @@
 __all__=["description"]
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 file = join(repo,"description")
 if exists(file):

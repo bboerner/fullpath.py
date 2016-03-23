@@ -4,8 +4,7 @@ __all__=["data_files"]
 import imp
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 def load_module(path):
     with open(path,'rb') as fp:

@@ -4,8 +4,7 @@ __all__=["name"]
 import os
 from os.path import *
 
-repo = dirname(dirname(__file__))
-if not repo: repo="."
+repo = abspath(dirname(dirname(__file__)))
 
 # default pkgname
 name = basename(repo).lower().replace(".py","")#.replace(".","-")

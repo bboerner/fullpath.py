@@ -1,4 +1,4 @@
-.. code-block::python
+.. code-block:: python
 
 	from fullpath import *
 

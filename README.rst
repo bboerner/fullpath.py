@@ -31,7 +31,7 @@ download_: :code:`[ -e requirements.txt ] && pip install -r requirements.txt; py
 Usage
 ~~~~~
 
-.. code-block::python
+.. code-block:: python
 
 	from fullpath import *
 
@@ -62,5 +62,3 @@ Feedback
 `russianidiot.github.io/python/`_  - my Python packages
 
 .. _russianidiot.github.io/python/: http://russianidiot.github.io/python/
-
-* * *

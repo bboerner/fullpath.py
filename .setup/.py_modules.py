@@ -4,10 +4,10 @@ __all__=["py_modules","package_dir"]
 import os
 from os.path import *
 
-dir = dirname(dirname(__file__))
-if not dir: dir="."
+repo = dirname(dirname(__file__))
+if not repo: repo="."
 
-path  = join(dir,"py_modules")
+path  = join(repo,"py_modules")
 if exists(path) and isdir(path): # ./py_modules/
     listdir  = os.listdir(path)
     pyfiles = list(filter(lambda l:splitext(l)[1]==".py",listdir))
@@ -15,6 +15,9 @@ if exists(path) and isdir(path): # ./py_modules/
     py_modules  = list(map(lambda f:f.replace(".py",""),pyfiles))
     if py_modules:
         package_dir={'':"py_modules"}
+else:
+    if __name__=="__main__":
+        print("SKIP: %s/ NOT EXISTS" % path)
 
 if __name__=="__main__":
 	for k in __all__:

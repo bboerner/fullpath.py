@@ -1,3 +1,2 @@
 isstring
 public
-setuptools

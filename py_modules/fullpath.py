@@ -5,7 +5,7 @@ from isstring import *
 # me
 #from argskwargs import *
 #from definspect import *
-from public import *
+from public import public
 
 def _fullpath(path):
     if not path: return None

@@ -3,16 +3,13 @@
 .. image:: https://img.shields.io/pypi/pyversions/fullpath.svg
    :target: https://pypi.python.org/pypi/fullpath
 
-.. image:: https://img.shields.io/pypi/pyversions/fullpath.svg
-   :target: https://pypi.python.org/pypi/fullpath
-
- |codacy| |landscape| |codeclimate| |scrutinizer|
+|codacy| |landscape| |codeclimate| |scrutinizer|
 
 .. |scrutinizer| image:: https://scrutinizer-ci.com/g/russianidiot/fullpath.py/badges/quality-score.png?b=master
    :target: https://scrutinizer-ci.com/g/russianidiot/fullpath.py/master
    :alt: scrutinizer-ci.com
 
-.. |codacy| image:: https://img.shields.io/codacy/None.svg
+.. |codacy| image:: https://img.shields.io/codacy/35b047ae7ed143a0a45a9a173e362161.svg
    :target: https://www.codacy.com/app/russianidiot-github/fullpath-py/dashboard
    :alt: codacy.com
 
@@ -32,22 +29,25 @@ Install
 Usage
 `````
 
-.. code-block:: python
+.. code:: python
+	
+	>>> from fullpath import fullpath
+	
+	>>> fullpath("~")
 
-	from fullpath import *
+Example
+```````
 
+.. code:: python
+	
 	>>> fullpath("~")
 	'/Users/username'
-
+	
 	>>> fullpath(".")
 	'/path/to/current/directory'
-
+	
 	>>> fullpath("..")
 	'/path/to/current'
-
-`Examples/`_
-
-.. _Examples/: https://github.com/russianidiot/fullpath.py/tree/master/Examples
 
 Sources:
 

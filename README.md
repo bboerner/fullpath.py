@@ -1,8 +1,9 @@
 ![python](https://img.shields.io/badge/language-python-blue.svg)[![PyPI](https://img.shields.io/pypi/pyversions/fullpath.svg)](https://pypi.python.org/pypi/fullpath)
-[![landscape.io](https://landscape.io/github/russianidiot/fullpath.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/fullpath.py/master)
+
+[![codacy.com](https://img.shields.io/codacy/35b047ae7ed143a0a45a9a173e362161.svg)](https://www.codacy.com/app/russianidiot-github/fullpath-py/dashboard)[![landscape.io](https://landscape.io/github/russianidiot/fullpath.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/fullpath.py/master)[![Code Climate](https://img.shields.io/codeclimate/github/russianidiot/fullpath.py.svg)](https://codeclimate.com/github/russianidiot/fullpath.py)
 [![Code Health](https://scrutinizer-ci.com/g/russianidiot/fullpath.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/fullpath.py)
 
-[![Build Status](https://travis-ci.org/russianidiot/fullpath.py.svg?branch=master)](https://travis-ci.org/russianidiot/fullpath.py)[![drone.io](https://drone.io/github.com/russianidiot/fullpath.py/status.png)](https://drone.io/github.com/russianidiot/fullpath.py)[![codeship](https://img.shields.io/codeship/1fdfce80-e322-0133-3a99-2adfd896b34c.svg)](https://codeship.com/projects/145851)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/fullpath.py.svg)](https://app.wercker.com/#applications/None/)
+[![Build Status](https://travis-ci.org/russianidiot/fullpath.py.svg?branch=master)](https://travis-ci.org/russianidiot/fullpath.py)[![drone.io](https://drone.io/github.com/russianidiot/fullpath.py/status.png)](https://drone.io/github.com/russianidiot/fullpath.py)[![Wercker](https://img.shields.io/wercker/ci/russianidiot/fullpath.py.svg)](https://app.wercker.com/#applications/None/)
 
 [![PyPI](https://img.shields.io/pypi/v/fullpath.svg)](https://pypi.python.org/pypi/fullpath)
 [![PyPI](https://img.shields.io/pypi/dm/fullpath.svg)](https://pypi.python.org/pypi/fullpath)
@@ -20,19 +21,23 @@ pip:
 #### Usage
 
 ```python
-	from fullpath import *
+>>> from fullpath import fullpath
 
-	>>> fullpath("~")
-	'/Users/username'
-
-	>>> fullpath(".")
-	'/path/to/current/directory'
-
-	>>> fullpath("..")
-	'/path/to/current'
+>>> fullpath("~")
 ```
 
-[Examples/](https://github.com/russianidiot/fullpath.py/tree/master/Examples)
+#### Example
+
+```python
+>>> fullpath("~")
+'/Users/username'
+
+>>> fullpath(".")
+'/path/to/current/directory'
+
+>>> fullpath("..")
+'/path/to/current'
+```
 
 Sources:
 *	[py_modules/fullpath.py](https://github.com/russianidiot/fullpath.py/blob/master/py_modules/fullpath.py)

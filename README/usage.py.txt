@@ -1,0 +1,3 @@
+>>> from fullpath import fullpath
+
+>>> fullpath("~")

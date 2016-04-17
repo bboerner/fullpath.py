@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 from os.path import *
-from isstring import *
-#from decorator import *
+from isstring import isstring
+#from decorator import decorator
 # me
 #from argskwargs import *
 #from definspect import *
@@ -38,10 +38,3 @@ def fullpath(path):
 @public
 def isfullpath(path):
     return path==fullpath(path)
-
-if __name__=="__main__":
-    import os
-    assert fullpath("~")==os.environ["HOME"]
-    assert fullpath("..")==dirname(os.getcwd())
-    print(fullpath(basename(__file__)))
-

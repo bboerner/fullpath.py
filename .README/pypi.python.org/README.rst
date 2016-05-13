@@ -49,6 +49,10 @@ Example
 	>>> fullpath("..")
 	'/path/to/current'
 
+`Examples/`_
+
+.. _Examples/: https://github.com/russianidiot/fullpath.py/tree/master/Examples
+
 Sources:
 
 *	`py_modules/fullpath.py`_

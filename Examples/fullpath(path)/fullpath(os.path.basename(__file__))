@@ -2,6 +2,5 @@
 import os
 from fullpath import fullpath
 
-print(os.getcwd())
-path = fullpath("..")
+path = fullpath(os.path.basename(__file__))
 print(path)

@@ -1,4 +1,6 @@
-![python](https://img.shields.io/badge/language-python-blue.svg)[![PyPI](https://img.shields.io/pypi/pyversions/fullpath.svg)](https://pypi.python.org/pypi/fullpath)
+![python](https://img.shields.io/badge/language-python-blue.svg)
+
+[![PyPI](https://img.shields.io/pypi/pyversions/fullpath.svg)](https://pypi.python.org/pypi/fullpath)[![PyPI](https://img.shields.io/pypi/v/fullpath.svg)](https://pypi.python.org/pypi/fullpath)
 
 [![codacy.com](https://api.codacy.com/project/badge/Grade/35b047ae7ed143a0a45a9a173e362161)](https://www.codacy.com/app/russianidiot-github/fullpath-py/dashboard)
 [![landscape.io](https://landscape.io/github/russianidiot/fullpath.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/fullpath.py)
@@ -12,10 +14,6 @@
 [![shippable.com](https://api.shippable.com/projects/57068cbb2a8192902e1bbb9d/badge?branch=master)](https://app.shippable.com/projects/57068cbb2a8192902e1bbb9d)
 [![travis-ci.org](https://travis-ci.org/russianidiot/fullpath.py.svg)](https://travis-ci.org/russianidiot/fullpath.py)
 [![wercker.com](https://app.wercker.com/status/9255faeeb5f41bdd0bb7bdc2f1419752/s/master)](https://app.wercker.com/#applications/570bdaad2831cf7033139ceb)
-
-[![PyPI](https://img.shields.io/pypi/v/fullpath.svg)](https://pypi.python.org/pypi/fullpath)
-[![PyPI](https://img.shields.io/pypi/dm/fullpath.svg)](https://pypi.python.org/pypi/fullpath)
-[![PyPI](https://img.shields.io/pypi/dd/fullpath.svg)](https://pypi.python.org/pypi/fullpath)
 
 <p align="center">
     <b>fullpath(path) - get fullpath</b>

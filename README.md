@@ -10,13 +10,12 @@ README generated with readmemako.py (github.com/russianidiot/readme-mako.py) and
 [![codeclimate.com](https://codeclimate.com/github/russianidiot/fullpath.py/badges/gpa.svg)](https://codeclimate.com/github/russianidiot/fullpath.py)
 [![scrutinizer-ci.com](https://scrutinizer-ci.com/g/russianidiot/fullpath.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/fullpath.py/)
 
-[![codecov.io](https://codecov.io/github/russianidiot/fullpath.py/coverage.svg?branch=master)](https://codecov.io/github/russianidiot/fullpath.py?branch=master)
 [![drone.io](https://drone.io/github.com/russianidiot/fullpath.py/status.png)](https://drone.io/github.com/russianidiot/fullpath.py)
 [![scrutinizer-ci.com](https://scrutinizer-ci.com/g/russianidiot/fullpath.py/badges/build.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/fullpath.py/)
 [![semaphoreci.com](https://semaphoreci.com/api/v1/russianidiot/fullpath-py/branches/master/shields_badge.svg)](https://semaphoreci.com/russianidiot/fullpath-py)
 [![shippable.com](https://api.shippable.com/projects/57068cbb2a8192902e1bbb9d/badge?branch=master)](https://app.shippable.com/projects/57068cbb2a8192902e1bbb9d/status/)
 [![travis-ci.org](https://api.travis-ci.org/russianidiot/fullpath.py.svg)](https://travis-ci.org/russianidiot/fullpath.py)
-[![wercker.com](https://app.wercker.com/status/9255faeeb5f41bdd0bb7bdc2f1419752/s/master)](https://app.wercker.com/#applications/570bdaad2831cf7033139ceb)
+[![wercker.com](https://app.wercker.com/status/9255faeeb5f41bdd0bb7bdc2f1419752/s/master)](https://app.wercker.com/russianidiot/fullpath.py/)
 
 <p align="center">
     <b>fullpath(path) - get fullpath</b>
@@ -53,18 +52,3 @@ Feedback
 [![GitHub issues](https://img.shields.io/github/issues/russianidiot/fullpath.py.svg)](https://github.com/russianidiot/fullpath.py/issues)
 [![Join the chat at https://gitter.im/russianidiot/fullpath.py](https://badges.gitter.im/russianidiot/fullpath.py.svg)](https://gitter.im/russianidiot/fullpath.py)
 [![GitHub followers](https://img.shields.io/github/followers/russianidiot.svg?style=social&label=Follow)](https://github.com/russianidiot)
-
-* * *
-
-<p align="center">
-	Python packages <a href="http://russianidiot.github.io/python/">russianidiot.github.io/python/</a>
-	<img src="http://russianidiot.github.io/images/python/16.png" />
-</p>
-<p align="center">
-	cli packages <a href="http://russianidiot.github.io/cli/">russianidiot.github.io/cli/</a>
-<img src="http://russianidiot.github.io/images/cli/16.png" />
-</p>
-
-<p align="center">
-	repos list <a href="http://russianidiot.github.io/">russianidiot.github.io</a> <img src="http://russianidiot.github.io/images/star/16.png" />
-</p>

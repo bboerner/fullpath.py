@@ -2,21 +2,6 @@
 README generated with readmemako.py (github.com/russianidiot/readme-mako.py) and .README dotfiles (github.com/russianidiot-dotfiles/.README)
 -->
 
-![python](https://img.shields.io/badge/language-python-blue.svg)
-[![PyPI](https://img.shields.io/pypi/pyversions/fullpath.svg)](https://pypi.python.org/pypi/fullpath)[![PyPI](https://img.shields.io/pypi/v/fullpath.svg)](https://pypi.python.org/pypi/fullpath)
-
-[![codacy.com](https://api.codacy.com/project/badge/Grade/35b047ae7ed143a0a45a9a173e362161)](https://www.codacy.com/app/russianidiot-github/fullpath-py/dashboard)
-[![landscape.io](https://landscape.io/github/russianidiot/fullpath.py/master/landscape.svg?style=flat)](https://landscape.io/github/russianidiot/fullpath.py)
-[![codeclimate.com](https://codeclimate.com/github/russianidiot/fullpath.py/badges/gpa.svg)](https://codeclimate.com/github/russianidiot/fullpath.py)
-[![scrutinizer-ci.com](https://scrutinizer-ci.com/g/russianidiot/fullpath.py/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/fullpath.py/)
-
-[![drone.io](https://drone.io/github.com/russianidiot/fullpath.py/status.png)](https://drone.io/github.com/russianidiot/fullpath.py)
-[![scrutinizer-ci.com](https://scrutinizer-ci.com/g/russianidiot/fullpath.py/badges/build.png?b=master)](https://scrutinizer-ci.com/g/russianidiot/fullpath.py/)
-[![semaphoreci.com](https://semaphoreci.com/api/v1/russianidiot/fullpath-py/branches/master/shields_badge.svg)](https://semaphoreci.com/russianidiot/fullpath-py)
-[![shippable.com](https://api.shippable.com/projects/57068cbb2a8192902e1bbb9d/badge?branch=master)](https://app.shippable.com/projects/57068cbb2a8192902e1bbb9d/status/)
-[![travis-ci.org](https://api.travis-ci.org/russianidiot/fullpath.py.svg)](https://travis-ci.org/russianidiot/fullpath.py)
-[![wercker.com](https://app.wercker.com/status/9255faeeb5f41bdd0bb7bdc2f1419752/s/master)](https://app.wercker.com/russianidiot/fullpath.py/)
-
 <p align="center">
     <b>fullpath(path) - get fullpath</b>
 </p>
